@@ -1,0 +1,21 @@
+.similar-furniture-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.6rem;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e3964a;
+  border-radius: 2rem;
+}

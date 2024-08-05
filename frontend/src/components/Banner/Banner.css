@@ -1,0 +1,32 @@
+.furniture-home {
+  background: url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")
+    no-repeat center;
+  background-size: cover;
+  height: 45vh;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 2rem;
+  transform: scaleX(-1);
+}
+
+.furniture-home h2 {
+  transform: scaleX(-1);
+  font-size: 4.8rem;
+  font-family: poppins-bold;
+}
+.furniture-home a {
+  transform: scaleX(-1);
+}
+@media (max-width: 991.98px) {
+  .furniture-home h2 {
+    font-size: 2.4rem;
+  }
+  .furniture-home {
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,38 @@
+.similiar-furniture-item {
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.similiar-furniture-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.similiar-furniture-info-container p:first-of-type {
+  text-transform: uppercase;
+  font-family: poppins-semibold;
+  font-size: 1.6rem;
+  color: #969696;
+}
+
+.similiar-furniture-info-container p:nth-child(2) {
+  font-size: 2rem;
+}
+.similiar-furniture-info-container p:last-of-type {
+  font-family: poppins-bold;
+  font-size: 1.8rem;
+  color: #e34a4a;
+}
+.similiar-furniture-img {
+  height: 35rem;
+  width: 100%;
+  border-radius: 2rem;
+  cursor: pointer;
+  object-fit: cover;
+}

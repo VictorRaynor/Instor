@@ -1,0 +1,16 @@
+.tab-btn {
+  border-radius: 3rem;
+  background-color: rgb(227, 150, 74, 0.24);
+  border: none;
+  color: #e3964a;
+}
+.tab-btn-container {
+  display: flex;
+  gap: 1.4rem;
+}
+@media (max-width: 991.98px) {
+  .tab-btn-container {
+    overflow-x: auto;
+    padding: 2rem 0rem;
+  }
+}

@@ -1,0 +1,22 @@
+.furniture-gallery h1 {
+  margin: 0 0 1rem 0;
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: flex-start;
+}
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .category-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

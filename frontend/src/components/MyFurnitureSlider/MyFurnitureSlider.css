@@ -1,0 +1,11 @@
+.small-furniture-container,
+.medium-furniture-container,
+.large-furniture-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.6rem;
+  margin-bottom: 5rem;
+}
+.size-title {
+  margin-bottom: 1.6rem;
+}

@@ -1,0 +1,59 @@
+.new-furniture-form-container {
+  padding: 2rem;
+  background-color: white;
+  position: fixed;
+  right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  gap: 1.6rem;
+}
+
+.new-furniture-form-container input {
+  padding: 0.5rem 1rem;
+}
+.add-new-item-btn {
+  position: fixed;
+  right: 5rem;
+  border: none;
+  background-color: transparent;
+  padding: unset;
+}
+.add-text-input-field {
+  height: 10vh;
+}
+textarea {
+  padding: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+.new-furniture-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.abortt-btn {
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .add-new-item-btn,
+  .new-furniture-form-container {
+    position: static;
+  }
+  .new-furniture-form-container form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .new-furniture-form-container input,
+  .submit-btn,
+  textarea {
+    width: 100%;
+  }
+}

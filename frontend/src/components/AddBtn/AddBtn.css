@@ -1,0 +1,8 @@
+.add-to-wishlist-btn {
+  border: none;
+  background-color: transparent;
+  padding: unset;
+}
+.add-to-wishlist-btn img {
+  max-width: 10rem;
+}

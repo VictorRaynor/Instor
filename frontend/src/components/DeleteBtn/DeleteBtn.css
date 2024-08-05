@@ -1,0 +1,8 @@
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  padding: unset;
+}
+.delete-btn img {
+  max-width: 10rem;
+}

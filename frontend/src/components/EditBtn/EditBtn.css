@@ -1,0 +1,8 @@
+.edit-btn {
+  border: none;
+  background-color: transparent;
+  padding: unset;
+}
+.edit-btn img {
+  max-width: 10rem;
+}

@@ -1,0 +1,13 @@
+.pageheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.4rem;
+  border-radius: 2rem;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+  color: white;
+}

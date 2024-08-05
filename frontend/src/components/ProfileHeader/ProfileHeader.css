@@ -1,0 +1,32 @@
+.header-container-user {
+  display: flex;
+  height: 50vh;
+
+  margin: 5rem;
+  gap: 5rem;
+}
+.user-img-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+
+  box-shadow: #e3964a 0px 19px 38px, rgba(227, 150, 74, 0.235) 0px 15px 12px;
+}
+.user-txt-container {
+  font-size: 2rem;
+}
+@media (max-width: 991.98px) {
+  .header-container-user {
+    flex-direction: column;
+    align-items: center;
+    height: unset;
+    margin: unset;
+  }
+  .user-img-container {
+    height: 25vh;
+    width: 60%;
+  }
+}

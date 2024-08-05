@@ -1,0 +1,34 @@
+.back-btn {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.24);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  transition: opacity 0.3s, transform 0.3s;
+  width: none;
+}
+.back-btn:hover {
+  width: 12rem;
+  opacity: 1;
+  transform: translateX(-5px);
+}
+
+.back-btn img {
+  max-width: 10rem;
+}
+.back-btn p {
+  display: none;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.back-btn:hover p {
+  opacity: 1;
+  display: block;
+}

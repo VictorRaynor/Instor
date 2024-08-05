@@ -1,0 +1,35 @@
+.reviewbox-container {
+  border-radius: 2.4rem;
+  background-color: #f2f2f2;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+  margin-top: 2.4rem;
+  width: max-content;
+}
+
+.reviewbox-container p:first-of-type {
+  color: grey;
+  font-size: ;
+}
+.star-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.star-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.star-and-reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

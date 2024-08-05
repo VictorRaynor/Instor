@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.8rem 2.4rem;
+}
+.social-media-icons {
+  display: flex;
+  gap: 3.2rem;
+}

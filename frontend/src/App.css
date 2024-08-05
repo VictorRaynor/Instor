@@ -1,0 +1,103 @@
+@font-face {
+  font-family: poppins-regular;
+  src: url("./assets/poppins-regular.ttf");
+}
+@font-face {
+  font-family: poppins-semibold;
+  src: url("./assets/poppins-semibold.ttf");
+}
+@font-face {
+  font-family: poppins-bold;
+  src: url("./assets/poppins-bold.ttf");
+}
+@font-face {
+  font-family: poppins-regular;
+  src: url("./assets/poppins-regular.ttf");
+}
+
+h1 {
+  font-family: poppins-bold;
+  font-size: 4.8rem;
+  line-height: 150%;
+}
+h2 {
+  font-family: poppins-semibold;
+  font-size: 2.4rem;
+  line-height: auto;
+}
+h3 {
+  font-family: poppins-semibold;
+  font-size: 2rem;
+  line-height: auto;
+}
+p {
+  font-family: poppins-regular;
+  font-size: 2.4rem;
+  line-height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+span {
+  text-decoration: none;
+  color: black;
+  font-family: poppins-regular;
+  font-size: 2rem;
+}
+
+button {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  font-family: poppins-regular;
+  background-color: white;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: rgb(54, 54, 54);
+  cursor: pointer;
+}
+
+main {
+  padding: 0 5rem;
+}
+
+footer {
+  margin: 0 3rem;
+}
+section {
+  margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+}
+input,
+textarea {
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  color: rgba(0, 0, 0, 0.36);
+  font-family: poppins-regular;
+  font-size: 1.6rem;
+}
+small {
+  color: red;
+  font-family: poppins-regular;
+  font-size: 2rem;
+}
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  main {
+    padding: 0 3rem;
+  }
+}

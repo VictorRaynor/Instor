@@ -1,0 +1,46 @@
+/* .new-furniture-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: white;
+  position: fixed;
+  right: 1rem;
+} */
+.add-title {
+  font-size: 2.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abort-btn {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.8rem;
+  background-color: black;
+  color: white;
+}
+.submit-btn {
+  border-radius: 2rem;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+.new-furniture-form-container input {
+  padding: 0.5rem 1rem;
+}
+/* .add-new-item-btn {
+  position: fixed;
+  right: 1rem;
+} */
+.add-text-input-field {
+  height: 10vh;
+}
+textarea {
+  padding: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}

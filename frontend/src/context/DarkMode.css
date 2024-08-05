@@ -1,0 +1,82 @@
+.light-mode {
+  background: #ffffff;
+  color: #000000;
+}
+
+.dark-mode,
+.dark-mode .dark-mode-btn {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.light-mode a {
+  color: #000000;
+}
+
+.dark-mode a,
+.dark-mode span {
+  color: #ffffff;
+}
+.dark-mode span:hover {
+  color: #ffffff;
+}
+
+.dark-mode .dropdown-content a {
+  color: white;
+}
+.dark-mode a:hover {
+  color: white;
+}
+.dark-mode .dropdown-content a:hover {
+  background-color: #393939;
+}
+.dark-mode .popular-furniture-info-container,
+.dark-mode .descr-container {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.dark-mode .popular-furniture-item a,
+.dark-mode .furniture-item,
+.dark-mode .new-furniture-form-container,
+.dark-mode .similiar-furniture-item,
+.dark-mode .reviewbox-container,
+.dark-mode .dropdown-content,
+.dark-mode .popular-furniture-info-container,
+.dark-mode .descr-container {
+  background: #5c5c5c;
+}
+
+.dark-mode .popular-furniture-item a {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.dark-mode .add-new-item-btn img {
+  filter: invert();
+}
+.dark-mode-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 5rem;
+  background-color: rgba(227, 150, 74, 0.238);
+  color: #e3964a;
+  border: none;
+  padding: 1rem 2rem;
+  width: 5rem;
+}
+.dark-mode-btn img {
+  min-width: 3rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.dark-mode .dark-mode-btn {
+  background-color: #393939;
+}
+.dark-mode .dark-mode-btn img {
+  background-color: #5c5c5c;
+}
+.dark-mode .login-title-container h1 {
+  color: black;
+}

@@ -1,0 +1,34 @@
+.category-banner {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.6rem;
+}
+.category-banner-container h2 {
+  margin-bottom: 2rem;
+}
+
+.home-link:hover {
+  transform: scale(1.05);
+}
+
+.home-stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.home-link img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 2rem;
+}
+@media (max-width: 991.98px) {
+  .category-banner {
+    flex-direction: column;
+  }
+}

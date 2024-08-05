@@ -1,0 +1,21 @@
+.new-user-form-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.new-user-form-container > * {
+  width: 40%;
+}
+
+.new-user-form-container input {
+  padding: 1rem 2rem;
+}
+.new-user-form-container a > * {
+  width: 100%;
+}

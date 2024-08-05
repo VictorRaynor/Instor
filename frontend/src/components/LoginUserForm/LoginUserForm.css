@@ -1,0 +1,140 @@
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #e3964a;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.login-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-user-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2.4rem;
+  border-radius: 2rem;
+
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.login-title-container,
+.register-title-container {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2.4rem;
+  border-radius: 2rem;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+.login-user-form-container * {
+  width: 100%;
+}
+.login-title-container button {
+  background-color: unset;
+  border: unset;
+  width: 10rem;
+  padding: 0;
+  display: flex;
+}
+.input-fields-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.input-fields-container input {
+  padding: 1.2rem 2rem;
+}
+.submit-btn {
+  border-radius: 0.8rem;
+  background-color: rgba(227, 150, 74, 0.24);
+  color: #e3964a;
+  font-size: 2rem;
+  font-family: poppins-bold;
+  padding: 1.2rem 0;
+}
+.to-register-btn,
+.to-login-btn,
+.abortt-btn {
+  border-radius: 0.8rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-family: poppins-bold;
+  border: 0;
+  padding: 1.2rem 0;
+}
+@media (max-width: 991.98px) {
+  .login-user-form-container {
+    width: 100%;
+  }
+}
